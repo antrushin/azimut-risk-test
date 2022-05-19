@@ -4,5 +4,5 @@ COPY . /root
 
 WORKDIR /root
 
-RUN pip install flask gunicorn
+RUN pip install flask gunicorn redis redis-server
 
